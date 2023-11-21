@@ -3,9 +3,14 @@
 """class square that define a square"""
 
 class Square:
+
     """class square that define a square"""
 
     def __init__(self, size=0):
+	"""initialize square
+	Args:
+		size (int): size of the square
+	"""
 
         if type(size) != int:
             raise TypeError('size must be an integer')
