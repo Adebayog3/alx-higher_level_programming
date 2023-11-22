@@ -30,9 +30,9 @@ class Square:
 	"""prints in stdout the square with the character #"""
 
 	if self.__size != 0:
-	   for x in range(self.__size):
-		for y in range(self.__size);
-		    print('#', end='')
+		for x in range(self.__size):
+			for y in range(self.__size);
+				print('#', end='')
 		print()
 	else:
-	    print()
+		print()
